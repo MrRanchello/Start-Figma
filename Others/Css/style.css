@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: #70c399;
+    min-height: 100vh;
+}
+
+.small-title {
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.hero-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 480px;
+}
+
+.active-link {
+    opacity: 1 !important;
+}
+
+.btn-explore {
+    border-radius: 5px;
+    color: #212529 !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.btn-explore:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 375px) {
+    
+    .hero-section {
+        padding-bottom: 30px;
+    }
+
+    .navbar {
+        padding-top: 15px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .hero-img {
+        max-height: 240px;
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .main-heading {
+        font-size: 1.85rem;
+        line-height: 1.25;
+        margin-bottom: 1rem !important;
+    }
+
+    .hero-description {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .btn-explore {
+        width: auto !important;
+        padding: 10px 35px !important;
+        font-size: 0.95rem;
+        display: inline-block;
+    }
+}
