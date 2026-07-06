@@ -77,6 +77,88 @@ body {
 
 }
 
+.partner-btn {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: .3s;
+}
+
+.partner-btn:hover {
+    transform: translateY(-5px);
+}
+
+/* Google */
+.g-blue {
+    color: #4285F4;
+}
+
+.g-red {
+    color: #EA4335;
+}
+
+.g-yellow {
+    color: #FBBC05;
+}
+
+.g-green {
+    color: #34A853;
+}
+
+.partner-btn span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Microsoft */
+.ms-logo {
+    width: 24px;
+    height: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+
+.ms-logo span {
+    width: 15px;
+    height: 15px;
+}
+
+.red {
+    background: #F1511B;
+}
+
+.green {
+    background: #80CC28;
+}
+
+.blue {
+    background: #00ADEF;
+}
+
+.yellow {
+    background: #FBBC09;
+}
+
+.partner-btn img {
+    width: 150px;
+    height: 60px;
+}
+
+/*Responsiv*/
+
+@media (min-width: 992px) {
+    .col-lg-2-4 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+
 /* partner section */
 
 /* responsiv */
