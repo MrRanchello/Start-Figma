@@ -152,8 +152,8 @@ body {
 
 /*Responsiv*/
 
-@media (min-width: 992px) {
-    .col-lg-2-4 {
+@media (max-width: 576px) {
+    col-12 col-lg-4{
         flex: 0 0 auto;
         width: 20%;
     }
